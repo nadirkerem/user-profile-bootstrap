@@ -4,19 +4,17 @@ new Chart(radarChart, {
   type: 'radar',
   data: {
     labels: [
-      'Eating',
-      'Drinking',
-      'Sleeping',
+      'Testing',
       'Designing',
       'Coding',
-      'Cycling',
-      'Running',
+      'Planning',
+      'Debugging',
+      'Deploying',
     ],
     datasets: [
       {
-        label: 'User',
-        data: [65, 79, 78, 67, 96, 78, 86],
-        fill: true,
+        label: 'User Statistics',
+        data: [78, 89, 100, 67, 57, 34],
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
         borderColor: '#0D6EFD',
         pointBackgroundColor: '#0D6EFD',

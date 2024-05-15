@@ -112,7 +112,7 @@
       </div>
       <!-- SIDEBAR END -->
       <!-- USER CARD -->
-      <div class="col-9 col-md-6 mt-3">
+      <div class="col-9 col-md-3 mt-3">
         <div class="card" style="width: 18rem;">
           <img src="images/photo.jpg" class="card-img-top" alt="Profile Picture">
           <div class="card-body text-center">
@@ -131,16 +131,50 @@
             <a href="#" class="card-link">Delete Profile</a>
           </div>
         </div>
-
-        <!-- USER CARD END -->
-
       </div>
+      <!-- USER CARD END -->
+      <!--  FORM -->
+      <div class="col-3 col-md-3 mt-3 d-none d-lg-block">
+        <p class="h3">Edit Profile</p>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleInputName1">
+            <div class="form-text">You won't be able to change your name again.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputJob1" class="form-label">Job Title</label>
+            <input type="text" class="form-control" id="exampleInputJob1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword2">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <!--  FORM END -->
+      </div>
+      <!--  FORM -->
+      <!--  CHART END -->
       <div class="col-3 col-md-3 mt-3 d-none d-lg-block">
         <div>
           <canvas id="radar-chart"></canvas>
-
         </div>
       </div>
+      <!--  CHART END -->
+
     </div>
 
 
